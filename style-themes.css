@@ -283,14 +283,28 @@ p.contacts-name {
     line-height: 48px;
   }
 
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
   .page-header .container {
     padding-top: 40px;
     padding-bottom: 120px;
     background-image: url("img/ZR.svg");
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-size: 290px 212px;
+    background-size: 218px 200px;
   }
+
+  .dark-theme .page-header .container {
+    background-size: 218px 200px;
+  }
+
+  .page-footer p {
+    padding-left: 10px;
+  }
+  
 }
 
 
