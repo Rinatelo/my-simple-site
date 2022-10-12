@@ -304,6 +304,10 @@ p.contacts-name {
   .page-footer p {
     padding-left: 10px;
   }
+
+  .footer-date {
+    display: none;
+  }
   
 }
 
